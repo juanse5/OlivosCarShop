@@ -1,0 +1,121 @@
+
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los enlaces */
+    margin: 20px 10px;
+  }
+  
+  .contact-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .contact-logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+  }
+
+
+  .whatsapp-icon{
+    border: solid 1px #25d366;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .chatgpt-icon{
+    border: solid 1px #0e8c6c;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .gpt-logo{
+    width: 50px;
+    height: auto;
+  }
+
+  .contanier-text-info-nav{
+    padding: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    border-radius: 5px;
+ }
+  
+
+  .whatsapp-icon a {
+    color: #25d366; /* Verde de WhatsApp */
+  }
+  
+  .whatsapp-icon a:hover {
+    color: #128c7e; /* Verde más oscuro al pasar el cursor */
+  }
+  
+  .chatgpt-icon a {
+    color: #fff; /* Verde de OpenAI */
+  }
+  
+  .chatgpt-icon a:hover {
+    color: #000; /* Verde más oscuro de OpenAI al pasar el cursor */
+  }
+  
+  .icon-btn-mayorista{
+    color: #25d366;
+  }
+
+
+  /*---------------FOOTER-------------------------------------------------------------------*/
+footer{
+  border: solid 1px #fff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  min-height: 480px;
+  align-self: center;
+}
+
+#redes-sociales{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #e0009d;
+}
+
+#redes-sociales #instagram-icon{
+  font-size: 30px;
+}
+
+
+#redes-sociales p{
+  color: #fff;
+}
+
+.derechos-autor{
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+
+#redes-sociales:hover #container-icon-instagram{
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 9px;
+  transition: 1s;
+}
+
+#redes-sociales:hover p{
+  color: #e0009d;
+  background-color: #00000054;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 1s;
+}

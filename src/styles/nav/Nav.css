@@ -1,0 +1,13 @@
+.nav-app{
+    display: flex;
+    flex-direction: column;
+    background-color:  #000000c1;
+    width: 30%;
+    font-style: italic;
+  }
+
+
+
+#btn-close-filters{
+    display: none;
+}

@@ -1,0 +1,18 @@
+
+
+/*ESTILO PARA EL BTN VOLVER ATRAS*/
+  .check-title-container button{
+    background-color: #fff;
+    border: solid 1px #ebebeb;
+    border-radius: 10px;
+    
+    height: 40px;
+    width: 13%;
+  }
+
+  .check-out-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

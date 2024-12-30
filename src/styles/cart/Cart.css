@@ -1,0 +1,146 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+  visibility: hidden;
+  opacity: 0;
+  z-index: 999; /* Debe estar debajo del carrito */
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*CONTAINER PADRE*/
+.cart-overlay {
+  position: fixed;
+  top: 0vh;
+  right: 0;
+  bottom: 0;
+  
+  margin: 0px;
+  height: 100vh;
+  width: 45%;
+  
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  transition: transform 0.7s ease-in-out;
+  z-index: 1000;  
+  overflow: auto;
+}
+
+
+.cart-overlay.closed {
+  transform: translateX(100%);
+  box-shadow: none;
+}
+
+.cart-overlay.open {
+  transform: translateX(0%);
+  box-shadow: -5px 0 5px rgba(0,0,0,0.5);
+}
+
+/* BOTON PARA MOVER EL MENU */
+.cart-icon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: absolute;
+  top: 7px;
+  right: 0px;
+  
+  width: 60px;
+  height:10vh;
+  
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  
+  border-radius: 50%;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+
+/*CONTAINER TITULO*/
+.cart-header{
+  width: 100%;
+  height: 12vh;
+  align-content: center;
+  background-color: #e2e2e2;
+  border-top-left-radius: 20px;
+}
+
+/*TITULO Y PRECIO TOTAL*/
+.cart-header h1{
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  color: #3b3b3b;
+}
+
+
+.pay-cart-container h2{ 
+  border-top : solid 1px #3b3b3b;
+  border-bottom : solid 1px #3b3b3b;
+  padding: 10px 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  color: #3b3b3b;
+}
+
+
+
+.container-pay-btn{
+  margin-top: 20px;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  align-content: center;
+  background: linear-gradient(to top,  #028fcc,  #05abf3) ;
+}
+
+#btn-continuar-compra{
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  padding: 0px 10px;
+  background-color: #fff;
+  align-self: center;
+}
+
+
+
+/* Container for Mercado Pago */
+.container-mercado-pago{
+  width: 100%; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0px;
+}
+
+.mp-image{
+  width: 80px;
+  height: auto;
+}
+
+.mp-btn-pagar{
+    width: 40%; 
+    height: 50px;
+    color: #fff;
+    background: linear-gradient(to top,  #028fcc,  #05abf3) ;
+    border-radius: 10px;
+    border: none;
+
+}

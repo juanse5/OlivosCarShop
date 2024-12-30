@@ -1,0 +1,84 @@
+/* Estilo general del modo fullscreen */
+.carousel-fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Imagen en fullscreen */
+.fullscreen-image {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Botones del carrusel en fullscreen */
+.fullscreen-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 1001;
+}
+
+.fullscreen-button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+}
+
+.carousel-prev.fullscreen-button {
+    left: 5%;
+}
+
+.carousel-next.fullscreen-button {
+    right: 5%;
+}
+
+/* Botón para cerrar el fullscreen */
+.close-fullscreen-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1001;
+    transition: background-color 0.3s ease;
+}
+
+.close-fullscreen-button:hover {
+    color: #ebebeb;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

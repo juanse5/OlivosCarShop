@@ -1,0 +1,18 @@
+/*----------------------------
+        FORM DE REGISTRO
+-----------------------------*/
+.name-inputs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/*-----------------------------
+        FORM DE INFORMACION
+------------------------------*/
+
+.box-container-info{
+    width: 50%;
+    margin:auto;
+    margin-top: 20px;
+}
+

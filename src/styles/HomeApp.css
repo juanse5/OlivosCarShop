@@ -1,0 +1,7 @@
+.header-app{
+    display: flex;
+}
+.cards-container-app{
+    display: flex;
+    justify-content: space-evenly;
+}

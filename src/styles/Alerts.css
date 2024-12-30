@@ -1,0 +1,103 @@
+/*CONTAINER*/
+.custom-alert {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /*CONTENIDO*/
+  .custom-alert-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /*TITULOS Y TEXTOS*/
+  .custom-alert-content h2 {
+    margin: 0 0 10px;
+  }
+  .custom-alert-content h3 { 
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;}
+  .custom-alert-content h4 {
+    padding: 10px;
+    background-color: #ededed;
+ 
+}
+
+/*LISTAS UL/LI */  
+.list-1 li,
+.list-2{
+    text-align: left;
+}
+.list-2 {
+    list-style: none; 
+}
+.list-2 li {
+    position: relative;
+    padding-left: 15px; 
+    margin-bottom: 10px;
+}
+.list-2 li::before {
+    content: "✓"; 
+    position: absolute;
+    left: 0;
+    color: green; 
+    font-size: 18px; 
+}
+  
+  
+  /*BTN CERRAR ALERTA*/
+
+  .button-group{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .custom-alert-content button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .custom-alert-content button:hover {
+    background-color: #0056b3;
+  }
+  .gpt-btn{
+    background-color: #000;
+  }
+  .close-btn{
+    background-color: #007bff;
+  }
+  
+  .chatgpt-link {
+    color: #007bff; /* Azul similar a un enlace estándar */
+    text-decoration: underline; /* Subrayado para resaltar que es un enlace */
+  }
+  .chatgpt-link:hover {
+    color: #0056b3; /* Cambia el color al pasar el cursor */
+    text-decoration: none; /* Opcional: quitar el subrayado en hover */
+  }
+  
+    /* Animación */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }

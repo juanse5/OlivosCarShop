@@ -1,0 +1,57 @@
+
+/*LISTA DE PRODUCTOS AGREGADOS*/
+.ul-cart {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+/*ITEMS DE PRODUCTOS AGREGADOS*/
+.li-cart {
+  display: flex;
+  justify-content: space-around;
+  
+  width: 99%;
+  margin: 2px;
+  border: solid 1px #222;
+  border-radius: 10px;
+}
+
+
+/*CONTAINER DE (LI-CONTENT-CART)*/
+.li-container-content{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+/*CONTAINER DE LOS TEXTOS DE LOS LI (<P>)*/
+.li-content-cart{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.cart-image{
+  width: 110px;
+  height: 100px;
+}
+
+.li-content-cart p{
+  text-align: center;
+  align-content: center;
+}
+
+#title-mobile{
+  display: none;
+}
+
+.remove-item-btn{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  color: red;
+  font-size: 25px;
+}

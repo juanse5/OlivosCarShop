@@ -1,0 +1,21 @@
+@media (max-width: 700px) {
+    .container-btn-login,
+    .container-btn-login button{
+     display: none;
+    }
+    .toolBar{
+     height: 80px;
+    }
+    .toolBar #img-logo{
+     margin-right: 30px;
+    }
+    .header-top-container h1{
+     margin-left: 0px;
+     
+  }
+   .img-container-logo{
+     margin-left:  10px;
+     margin-right: 10px;
+     margin-top: 5px;
+   }
+}

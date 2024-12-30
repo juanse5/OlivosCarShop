@@ -1,0 +1,46 @@
+
+/*CONTAINER PADRE-----------------------------------------------------*/
+.card-list-container{
+    width: 100%;
+}
+
+/*CONTAINER LISTA DE CARDS-----------------------------------------------------*/
+.card-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;  
+}
+
+/*PAGINATION-----------------------------------------------------*/
+
+.pagination-nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.page-item {
+    display: inline;
+}
+
+.page-link {
+    color: #333;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.page-link:hover {
+    background-color: #ddd;
+}
+
+.page-item.active .page-link {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}

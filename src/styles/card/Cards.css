@@ -1,0 +1,155 @@
+
+
+/*CONTAINER CARD*/
+.card{
+    justify-items: center; 
+    align-items: center; 
+    height: fit-content;
+    margin: 10px;
+    padding-top: 1px;
+
+    background-color: #efefef;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/*CONTAINER CONTENT-----------------------------------------------------------*/
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;  
+    justify-items: center; 
+}
+
+/*CONTAINER IMAGEN------------------------------------------------------------*/
+.container-image-card{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 90%;
+    min-height: 180px;
+    max-height: 180px;
+    margin: 10px;
+
+    border-radius: 20px;
+    background-color: #f8f8f8;   
+}
+
+/*IMAGEN*/
+.card-image{
+    align-self: center;
+
+    width: 200px;        
+    height: auto;     
+}
+
+
+/*TITULO DEL PRODUCTO*/
+.card h2{
+    padding: 5px ;
+    width: 80%;
+    background-color: #e2e2e2;
+    border-radius: 100px;
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/*CONTAINER CONTENIDO DE TEXTOS DE LA CARD-----------------------------------------------*/
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card p{
+    margin: 2px 20px;
+    padding: 5px 0px;
+}  
+
+.card p:nth-child(1),
+.card p:nth-child(2),
+.card p:nth-child(3){
+    text-align: center;
+    color: #fff;
+    border-radius: 15px;
+ 
+}
+
+
+.card p:nth-child(1){
+    background-color: #25d366;
+}
+.card p:nth-child(2){
+    background-color: #0084ff;
+}
+.card p:nth-child(3){
+    background-color: #787878;
+}
+
+
+/*ICONOS---------------------------------------------*/
+.icons-container{
+    margin-left: 35px;
+    color: #0084ff;
+}
+
+.icons-container #icons-id{
+    margin-right:10px ;
+}
+
+
+/*BUTTON-------------------------------------------------*/
+.card button{
+  grid-column: span 2; 
+
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+
+  border: solid 1px #222;
+  border-radius: 50px;
+  
+}
+
+#info-p{
+    padding: 3px;
+    margin: 0px 20px;
+    border: solid 1px transparent;
+    width: 85%;
+    text-align: center;
+
+}
+.card:hover #info-p{
+    border: solid 1px #7c7c7c;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+
+
+
+.card:hover{
+    background-color: #dfdfdfa5;
+}
+
+.card:hover .container-image-card{
+    background-color: #fff;
+}
+
+.card:hover h2{
+    background-color: #cccccc;
+}
+
+.card button:hover{
+    background-color: #484848;
+    border: solid 1px #484848;
+    color: #fff;
+}
+
+
+

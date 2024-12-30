@@ -1,0 +1,11 @@
+@media (max-width: 700px) {
+   
+.header-app{
+    flex-direction: column;
+}
+
+.custom-alert{
+  overflow: auto;
+}
+
+}

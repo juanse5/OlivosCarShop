@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+
+input,
+select,
+label{
+    outline: none;
+    border: none;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+h1,h2{
+    font-style: italic;
+}
+
+.footer-mobile-container{
+    display: none;
+    font-style: italic;
+}

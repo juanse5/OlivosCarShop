@@ -1,0 +1,36 @@
+.container-info-check-out{
+    width: 85%;
+    align-content: center;
+    
+}
+
+.container-info-check-out h4{
+    text-align: center;
+    background-color: #e2e2e2 ;
+    padding: 5px;
+}
+
+
+.envios-moto-container,
+.envios-oca-container{
+    background-color: #e2e2e215;
+}
+
+.envios-moto-container h5,
+.envios-oca-container h5{
+    text-align: center;
+    background-color: #0080ff;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.envios-moto-container p,
+.envios-oca-container p{
+    padding: 0px 10px;
+}
+
+.icon-info-envios{
+    color: #343434;
+    margin-right: 5px;
+}
+

@@ -1,0 +1,34 @@
+@media (max-width: 700px) {
+    .nav-app{
+        width:100%;
+        height: auto;
+    }
+    
+    .imagenes-publicitarias{
+    display: none;
+  }
+
+    footer,
+    .contanier-text-info-nav{
+      display: none;
+    }
+
+    
+    #btn-close-filters{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 25%;
+      height: 50px;
+
+      background-color: #00000042;
+      border: none;
+      border-radius: 10px;
+      color: #fff;
+      
+      font-size: 20px;
+
+      margin: 10px;
+    }
+      
+}

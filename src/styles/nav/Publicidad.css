@@ -1,0 +1,24 @@
+.imagenes-publicitarias img{
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.imagenes-publicitarias{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img-publicidad{
+    border: solid 1px #979797;
+    border-radius: 10px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.container-img-publicidad:hover{
+    background-color: #fff;
+    border: solid 1px #fff;
+}

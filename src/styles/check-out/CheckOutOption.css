@@ -1,0 +1,59 @@
+/* src/styles/CheckoutOptions.css */
+
+/*CONTAINER GENERAL*/
+.checkout-options-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: #fff;
+  }
+  
+/*CONTAINER DE (check-title-container // pre-compra-content )*/
+.container-pre-compra{
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+
+  }
+
+/*CONTAINER DE  (container-opciones-envio)*/
+  .pre-compra-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/*ESTILO TITULO INFORMATIVO*/
+  .container-pre-compra h3{
+    margin: 10px 5px;
+    background-color: #ebebeb;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+  .container-opciones-envio,
+  .container-opciones-pago{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .container-opciones-envio label{
+    background-color: #ebebeb;
+    padding: 20px;
+    margin: 5px;
+  }
+
+  .container-opciones-pago button{
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    align-self: center;
+  }
+

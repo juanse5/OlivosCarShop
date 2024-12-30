@@ -1,0 +1,33 @@
+@media (max-width: 700px) {
+    .card-list {
+        grid-template-columns: 1fr;
+      }
+    
+      .close-button-modal{
+        bottom: 20px;
+        left: 0px;
+      }
+  
+    
+/*---------------------------QUANTITY DIALOG ---------------------------------------*/
+    .quantity-dialog-content {
+        width: 100%;
+      }
+      .quantity-controls{
+        width: 100%;
+      }
+      .btn-controls{
+        width: 50px;
+        height: 50px;
+        font-size: 30px;
+      }
+      .quantity-controls span{
+        font-size: 30px;
+      }
+      .close-button {
+        color: #ff0000;
+        top: -8px;
+        right: 0px;
+        font-size: 50px;      
+      }
+}

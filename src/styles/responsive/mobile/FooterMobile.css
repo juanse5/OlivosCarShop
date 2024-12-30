@@ -1,0 +1,12 @@
+@media (max-width: 700px) {
+
+.footer-mobile-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000ba;
+    color: #fff;
+    padding-bottom: 30px;
+   
+}
+
+}

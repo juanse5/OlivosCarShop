@@ -1,0 +1,21 @@
+.lamps-filters-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.lamps-filters-container  label{
+    color: #fff;
+}
+
+
+.select-filter select {
+    text-align: center; 
+    width: 100%;
+
+    height: 40px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }

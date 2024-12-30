@@ -1,0 +1,40 @@
+@media (max-width: 700px) {
+    .container-info-check-out{
+        width: 90%;
+      }
+      .container-formulario-envio{
+        width: 100%;
+      }
+      .input-doble{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+      }
+      .input-check-form{
+        padding: 5px 0px;
+      }
+      .input-doble input{
+        margin: 5px 0px; 
+      }
+      .checkout-form input{
+        width: 90%;
+        padding: 20px 5px;
+      }
+      .check-title-container{
+        flex-direction: column;
+      }
+      .check-title-container button{
+        width: 50%;
+        border-radius: 10px;
+      }
+      .mp-btn-pagar{
+        width: 80%!important;
+      }
+      .check-title-container{
+        padding: 30px 0px;
+        align-items: center;
+      }
+      .check-title-container button{
+       display: none;
+      }
+}

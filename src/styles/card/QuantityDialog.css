@@ -1,0 +1,108 @@
+/* Fondo que cubre toda la pantalla */
+.quantity-dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  z-index: 1000;
+}
+
+/* Cuadro de diálogo */
+.quantity-dialog-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.634);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 40%;
+}
+
+/* Controles de cantidad */
+.quantity-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  width: 50%;
+  height: 100%;
+  background-color: #222222;
+  border-radius: 20px;
+}
+
+.controls{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.quantity-controls h3,
+.quantity-controls span{
+  color: #fff;
+}
+
+.quantity-controls h3{
+  font-size: 20px;
+}
+
+
+.btn-controls{
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 50%;
+  margin: 0px 20px;
+ 
+}
+
+.quantity-controls span {
+  font-size: 18px;
+  font-weight: bold;
+  align-content: center;
+}
+
+/* Botón de confirmar */
+.confirm-button-controls {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+.confirm-button:hover {
+  background: #218838;
+}
+
+/* Botón de cerrar (cruz) */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #000000;
+  
+}
+
+.close-button:hover {
+  color: #333;
+}

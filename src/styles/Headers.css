@@ -1,0 +1,50 @@
+/*-----------------------------------
+        HEADER TOP    (HEADERTOP.JSX)
+-------------------------------------*/
+  .header-top-container {
+    background-color: #222;
+    color: white;
+    height: 12vh;
+  }
+  .header-top-container  .tool-bar {
+    display: flex;
+    align-items: center;
+  }
+  .header-top-container h1{
+    margin-left: 20px;
+  }
+  .img-container-logo{
+    margin-left: 10px;
+    border-radius: 100%;
+  }
+  .logoApp{
+    border-radius: 100%;
+    width: 50px;
+    height: auto;
+  }
+  .header-top-container span{
+    align-self: flex-end;
+    margin-bottom: 16px;
+    margin-left: -85px;
+    font-size: 10px;
+    font-style: italic;
+  }
+
+/*-----------------------------------
+        SUB HEADER  (HOMELOGINAPP.JS)
+-------------------------------------*/
+.sub-header-login{
+    display: flex;
+    justify-content: space-around;
+
+    height: 10vh;
+    
+    background-color: #222;
+    border-top: solid 1px #434343;
+}
+.sub-header-login button{
+    margin: 10px 24px;
+    width: 200px;
+}
+
+
